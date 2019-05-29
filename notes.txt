@@ -1,0 +1,11 @@
+A User has many Posts
+Posts have one author (User)
+
+A User has many Photos
+Photos have one User
+
+a Photo will have authorId: (refrences a User _id)
+a Post will have authorId: (refrences a User _id)
+
+A user has many Friends(User)
+A User has an Array of friendIds: (refrences a User _id)
