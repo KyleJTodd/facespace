@@ -1,8 +1,8 @@
 //THIS FILE STAYS BASICALLY THE SAME
 import mongoose from 'mongoose'
 
-//THIS STRING WILL CHANGE SLIGHTLY
-const connectionString = "mongodb+srv://student:student@classroom-afyyj.mongodb.net/facespace?retryWrites=true"
+//THIS STRING WILL CHANGE SLIGHTLY-
+const connectionString = "mongodb+srv://DBuser:<password>@cluster0-uwikr.mongodb.net/test?retryWrites=true&w=majority"
 
 let connection = mongoose.connection
 
